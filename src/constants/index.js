@@ -32,6 +32,7 @@ import {
   ratnaAssociates,
   discBud,
   poison,
+  theZone,
 } from "../assets";
 
 export const navLinks = [
@@ -197,6 +198,28 @@ const projects = [
     image: ratnaAssociates,
     source_code_link: "https://github.com/dethrtrns/advratna.git",
     demo_link: "https://advratna.vercel.app/",
+  },
+  {
+    name: "The Zone",
+    description:
+      "Highly Responsive Blogsite with an exquisite landing page, searching, sorting, categories and Dark Mode for the late night readers!",
+    tags: [
+      {
+        name: "react/next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "responsive",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MaterialUI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: theZone,
+    source_code_link: "https://github.com/dethrtrns/blog",
+    demo_link: "https://thereaderszone.vercel.app/",
   },
   {
     name: "Discount Buddy",

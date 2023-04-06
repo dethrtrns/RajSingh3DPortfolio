@@ -38,6 +38,7 @@ import ratnaAssociates from "./ratna-associates.png";
 import discBud from "./discount-buddy.png";
 import poison from "./whats-your-poison.png";
 import cod from "./cod.png";
+import theZone from "./the-zone.png";
 
 export {
   logo,
@@ -77,4 +78,5 @@ export {
   ratnaAssociates,
   discBud,
   poison,
+  theZone,
 };
