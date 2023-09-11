@@ -33,6 +33,7 @@ import {
   discBud,
   poison,
   theZone,
+  onito,
 } from "../assets";
 
 export const navLinks = [
@@ -128,11 +129,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Onito Technologies Pvt Ltd",
+    icon: onito,
+    iconBg: "#bcd3f7",
+    date: "Aug 2023 - present",
+    points: [
+      "Successfully migrated the production codebase from Create React App (CRA) to Vite, resulting in significant improvements in performance and development workflow.",
+      "Reduced development server startup time from 13 minutes to 1 minute and 13 seconds.",
+      "Implemented near-instant Hot Module Replacement (HMR) for single-component changes, enhancing development efficiency.",
+      "Decreased production bundle size from approximately 50 MB to 11 MB, leading to improved page load performance.",
+      "Cut build times in half, streamlining development and deployment processes.",
+      "Developing and maintaining web application using react.js and other related technologies.",
+      "Participating in requirements gathering to solidify prerequisites and determine best technical solution to meet business needs.",
+    ],
+  },
+  {
     title: "Full Stack Developer",
     company_name: "Ratna Associates",
     icon: ratna,
     iconBg: "#bcd3f7",
-    date: "Jan 2023 - present",
+    date: "Jan 2023 - July 2023",
     points: [
       "Developing and maintaining web application using Next.js and other related technologies.",
       "Managed both back-end and front-end aspects of development process.",

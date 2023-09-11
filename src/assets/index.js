@@ -29,6 +29,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import ratna from "./company/ratna.svg";
+import onito from "./company/onito-logo-short.png";
 import ratnaW from "./company/ratnaW.svg";
 
 import carrent from "./carrent.png";
@@ -79,4 +80,5 @@ export {
   discBud,
   poison,
   theZone,
+  onito,
 };
