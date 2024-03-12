@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import DividerWave from "./DividerWave";
+// import DividerWave from "./DividerWave";
 
 const Hero = () => {
   return (
