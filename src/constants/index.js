@@ -141,6 +141,8 @@ const experiences = [
     points: [
       "Developing and maintaining web application using Next.js and other related technologies.",
       "Managed both back-end and front-end aspects of development process.",
+      "Developed Mobile first UI with PWA support",
+      "Live Chat and Interactive Services with websocket and rtc",
       "Used Design System Library(MantineUI) and theming for consistent and responsive UI.",
       "Participating in requirements gathering to solidify prerequisites and determine best technical solution to meet business needs.",
       "Collaborated with stakeholders during development processes to confirm creative proposals and design best practices.",
@@ -206,6 +208,10 @@ const projects = [
       {
         name: "react/next",
         color: "blue-text-gradient",
+      },
+      {
+        name: "PWA support",
+        color: "green-text-gradient",
       },
       {
         name: "node",
