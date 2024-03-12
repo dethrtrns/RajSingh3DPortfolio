@@ -129,11 +129,26 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Full Stack Developer",
+    company_name: "Ratna Associates",
+    icon: ratna,
+    iconBg: "#bcd3f7",
+    date: "Jan 2023 - present",
+    points: [
+      "Developing and maintaining web application using Next.js and other related technologies.",
+      "Managed both back-end and front-end aspects of development process.",
+      "Used Design System Library(MantineUI) and theming for consistent and responsive UI.",
+      "Participating in requirements gathering to solidify prerequisites and determine best technical solution to meet business needs.",
+      "Collaborated with stakeholders during development processes to confirm creative proposals and design best practices.",
+      "Studied user requirements to gain strong understanding of project initiatives and deadlines.",
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "Onito Technologies Pvt Ltd",
     icon: onito,
     iconBg: "#bcd3f7",
-    date: "Aug 2023 - present",
+    date: "Aug 2023 - sept 2023",
     points: [
       "Successfully migrated the production codebase from Create React App (CRA) to Vite, resulting in significant improvements in performance and development workflow.",
       "Reduced development server startup time from 13 minutes to 1 minute and 13 seconds.",
@@ -142,21 +157,6 @@ const experiences = [
       "Cut build times in half, streamlining development and deployment processes.",
       "Developing and maintaining web application using react.js and other related technologies.",
       "Participating in requirements gathering to solidify prerequisites and determine best technical solution to meet business needs.",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "Ratna Associates",
-    icon: ratna,
-    iconBg: "#bcd3f7",
-    date: "Jan 2023 - July 2023",
-    points: [
-      "Developing and maintaining web application using Next.js and other related technologies.",
-      "Managed both back-end and front-end aspects of development process.",
-      "Used Design System Library(MantineUI) and theming for consistent and responsive UI.",
-      "Participating in requirements gathering to solidify prerequisites and determine best technical solution to meet business needs.",
-      "Collaborated with stakeholders during development processes to confirm creative proposals and design best practices.",
-      "Studied user requirements to gain strong understanding of project initiatives and deadlines.",
     ],
   },
   {
@@ -260,28 +260,28 @@ const projects = [
     source_code_link: "https://github.com/dethrtrns/Discount-Buddy",
     demo_link: "https://discount-buddy.vercel.app/",
   },
-  {
-    name: "What's your Poison?",
-    description:
-      "A web based application that helps users to find or even Add any liquor related information including and not limited to price(location wise), ABV, composition etc.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "UX-research-phase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MaterialUI",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: poison,
-    source_code_link: "https://github.com/dethrtrns/whats-your-poison.git",
-    demo_link: "https://whats-your-poison.vercel.app/",
-  },
+  // {
+  //   name: "What's your Poison?",
+  //   description:
+  //     "A web based application that helps users to find or even Add any liquor related information including and not limited to price(location wise), ABV, composition etc.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "UX-research-phase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "MaterialUI",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: poison,
+  //   source_code_link: "https://github.com/dethrtrns/whats-your-poison.git",
+  //   demo_link: "https://whats-your-poison.vercel.app/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
